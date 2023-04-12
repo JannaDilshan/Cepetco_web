@@ -1,0 +1,922 @@
+/*--------------*/
+/* HOME CSS FILE*/
+/*--------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.background{
+    background-image: url("pic/istockphoto-1222028781-170667a1.jpg");  
+}
+/*----------------------*/
+/*.Navigation bar style*/
+/*---------------------*/
+.menu ul{
+	float:center;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+    bottom: -10px;
+    /*border: 4px solid rgb(255, 0, 0);*/
+    border-bottom: 0px;
+    background-color:rgb(255, 255, 255);
+    width:auto;
+    background: #e90707c9;
+    padding: 1%;
+    
+    
+   
+}
+
+.menu ul li{
+    display:inline-block;
+    margin: 5px;
+    margin-bottom: -10px;
+    list-style: none;
+    margin-top: 0px;
+    position: relative;
+    margin-bottom: 0%;
+   
+   
+   
+}
+.menu ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family:serif;
+    font-weight: bold;
+    margin: 15px;
+    
+  
+}
+
+.menu ul span{
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    font-family:serif;
+    font-weight: bold;
+    margin-left: 0px;
+    font-size: 20px;
+    text-decoration: transparent underline;
+    transition: 0.5s;
+    position: relative;
+}
+/*-------------------------------------------------------*/
+/*Navigation bar style and underline animation  csss code*/
+/*-------------------------------------------------------*/
+.menu a span:hover{
+    
+    color: rgb(4, 0, 255);
+}
+
+.menu ul li a::after{
+    content: '';
+    position:absolute;
+    background: rgb(0, 0, 0);
+    transition: 0.5s;
+    bottom: 0px;
+    height: 3px;
+    left: 0;
+    width: 0;
+    
+    
+}
+.menu ul li a:hover::after{
+    width: 100%;
+}
+
+/*CEYLON PETROLEUM CORPORATION..=name background*/
+.main {
+background:  rgba(0, 0, 0, 0.63) 41%;
+    height:110%;
+    align-items: center;
+}
+
+
+/*social media bar*/
+.social{
+    position: fixed;
+    width:70px;
+
+    transition: all 0.3s linear;
+    box-shadow: 2px 2px 8px 0px black;
+    color:transparent;
+    margin-left: -35px;
+   background: transparent;
+    height: 0px;
+    margin-top: 150px;
+   
+  }
+ 
+  .social li{
+    height: 45px;
+    position: relative;
+    width: 110%;
+   
+    
+   
+  }
+
+.social li a{
+    color:#ffff;
+    display:block ;
+    width: 100%;
+    height:100%;
+    line-height:60px;
+    padding-left: 25%;
+    border-bottom: 1px solid rgb(0,0,0,.4);
+    font-family: serif;
+    letter-spacing:0.5 ;
+    border-radius: 25%;
+    margin: 5px;
+    color:#ffffff;
+}
+ 
+.social li:nth-child(1) a{
+    background: #4267b2a9;
+  }
+.social li:nth-child(2) a{
+    background: #1da0f2a9;
+  }
+.social li:nth-child(3) a{
+    background: #e1306b93;
+  }
+  .social li:nth-child(4) a{
+    background: #10df1070;
+  }
+
+ .social li:nth-child(5) a{
+    background: #2866b2a2;
+  }
+ .social li:nth-child(6) a{
+    background: #ff000071;
+  }
+
+  .social li a i{
+    position:absolute;
+    top: 10px;
+    left: 18px;
+    font-size: 17px;
+
+  }
+ .social ul li a span{
+    display: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: medium;
+    
+  }
+
+ .social ul li  a:hover {
+    z-index:1;
+    width: 160px;
+    border-bottom: 1px solid rgba(0,0,0,.5);
+    box-shadow: 0 0 1px 1px rgba(0,0,0,.3);
+    border-bottom-left-radius:25px;
+	border-top-left-radius:25px;
+    border-bottom-right-radius:25px;
+	border-top-right-radius:25px;
+ 
+  }
+
+ .social ul li:hover a span{
+    padding-left: 20%;
+    display: block;
+    font-size: 13px;
+    text-align: center;
+    align-items: center;
+  
+  }
+
+
+
+
+
+/* position fexed navigation bar*/
+
+/*-------------------------------------------------------*/
+/*CEYLON PETROLEUM CORPORATION..=font style and animation */
+/*-------------------------------------------------------*/
+.main{
+    width: 100%;
+   overflow: hidden;
+   height: 100px;
+   background-color:#e907078a;
+}
+
+ h1{
+    position:relative;
+    font-size: 190%;
+   /*-webkit-text-stroke:1px #ffffff;*/
+    text-align: center;
+    color:#ffffffb7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-Right:0px;
+    height: 100%;
+  padding-top:2%;
+    float: right;
+    margin-right:20%;
+}
+/*-------------------------------------------------------*/
+/*CEYLON =font style and animation */
+/*-------------------------------------------------------*/
+h1::before{
+    content:attr(data-text) ;
+    position: absolute;
+   /* top:10%;
+    left:auto;*/
+    width: 14%;
+    height: 100%;
+    color:#ffffff;
+    -webkit-text-stroke:2px #ffffff;
+    border-right: 0px solid #01fe87; 
+    overflow: hidden;
+    animation: animate 20s linear infinite;
+}
+
+@keyframes animate
+{
+    0%,10%,100%
+    {
+        width: 0%;
+    }
+    80%,50%,90%
+    {
+        width:99.5%;
+    }
+}
+@media(max-width: 800px){
+	.main{
+	  width: 100%;
+      font-size: 9px;
+      background-color: #fe0101b6;
+   
+  
+  }
+  }
+  @media(max-width: 600px){
+	.main{
+    width: 100%;
+    font-size: 8px;
+     background-color: #fe0101b6;
+	}
+
+ 
+}
+
+
+.logomain .logo{
+    background:transparent;
+    width:auto;
+    height:60px;
+    align-items: left; 
+    margin-top:1%;
+   
+        
+}
+.logomain{
+
+    background-color:transparent;
+}
+
+
+/*cover pic add  and slide photo*/
+
+.img{
+        animation-duration:10s;
+	    animation-iteration-count:e;
+        align-items: center;
+        height: 300px;
+        background-image:url("pic/10.jpg");
+        animation: change  50s infinite;
+        background-position:center;
+        background-repeat:no-repeat;
+    
+}
+
+@keyframes change{
+    0%
+        {
+            background-image:url("pic/10.jpg");
+            
+    
+        }
+    20%
+        {
+            background-image:url("pic/11.jpg");
+    
+        }
+    40%
+        {
+            background-image:url("pic/5.jpg");	
+        }
+    60%
+        {
+            background-image:url("pic/12.jpg");
+        }
+    80%
+        {
+            background-image:url("pic/14.jpg");
+        }
+    100%
+        {
+            background-image:url("pic/12.jpg");
+        }
+    120%
+        {
+            background-image:url("pic/12.jpg");
+            
+        }	
+    }
+    
+
+
+
+
+
+/*CEYPETCO topic desing and animation*/
+ .topic{
+   margin-left: 0%;
+ text-align: center;
+ color: #491515;
+ background:transparent;
+ height: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+ .topic::after{
+    content:'';
+    height: 3px;
+    background: red;
+    position: absolute;
+    bottom: -40px;
+    left: 40%;
+    transition:0.5s;
+    width: 1%;
+    text-align: center;
+    align-items: center;
+    
+}
+
+ .topic:hover::after{
+    width: 20%;
+    align-items: center;  
+}
+
+.pragrah{
+text-align: center;
+letter-spacing: 1px;
+font-weight: bold;
+margin-left: 0%;
+
+
+}
+
+/* Braking News =font style*/
+.news{
+    text-align: left;
+    margin:10px;
+    padding:10px ; 
+    color:black;
+    cursor: pointer;
+    position:relative;
+
+}
+/* Braking News =font style decoration and animation*/
+.news::before{
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 3px;
+        background:radial-gradient(circle, rgba(237,4,52,0.8294489670868348) 34%, rgba(131,52,227,0.9947150735294118) 50%, rgba(0,0,0,0.7314097514005602) 63%);;
+        transition: 0.5s;
+        bottom:0;
+        left: 0;
+        color: red;
+        animation:news 6s linear infinite;
+
+} 
+
+@keyframes news 
+{
+    0%
+    {
+        width: 0%;
+    }
+    50%
+    {
+        width: 100%;
+    }
+
+    
+}
+
+/*topic news*/
+.table table th{
+    border: 0px;
+    color: rebeccapurple;
+    border-bottom: none;
+    scroll-padding: 10px;
+}
+
+/*DOWNLOAD MOBILE APP FOR FUEL STATIONS.=name font style and animation*/
+.app{
+    font-family: serif;
+    color: rgb(0, 0, 0);
+    position:relative;
+    text-align: center;
+    -webkit-text-stroke:1px #383d52;
+    font-size: 25px;
+}
+
+.app::before{
+    content: '';
+    width: 0;
+    height: 3px;
+    position: absolute;
+    background: red;
+    cursor:pointer;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    transition: 0.7s;
+    animation:app 6s linear infinite ;
+    margin-left:23% ;
+
+}
+
+@keyframes app
+ {
+   0%
+   {
+        width: 0%;
+   } 
+   50%
+   {
+        width: 55%;
+   }
+}
+
+.app:hover::after{
+    width: 100%;
+    color:red;
+}
+
+ .img-app{
+    width: 70px;
+    height: 70px;
+}
+
+.cardone{
+    height: 10%;
+    align-items: center;
+   margin-left: 30%;
+   border: 0px;
+   margin-left: 3%;
+   margin-top: -28%;
+   background:transparent;
+}
+
+.tableImag {
+    margin-left:30% ;
+    margin-top:0%;
+   
+    
+}
+
+/*NATIONAL FUEL PASS=font style and animation*/
+.pass{
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    -webkit-text-stroke:1px #383d52;
+    font-size: 25px;
+    position: relative;
+    
+    
+}
+.pass::before{
+    content:'' ;
+    -webkit-text-stroke:1px #383d52;
+    background: red;
+    position: absolute;
+    height: 3px;
+    width:30%;
+    left:0;
+    bottom:-9px ;
+    animation:pass 6s linear infinite;
+    border-right: 2px solid red;
+    overflow: hidden;
+    margin-left: 35%;
+    margin-right: 40%;
+
+}
+@keyframes pass 
+{
+    10% 
+    {
+    width: 0%;
+    }
+    50%  
+    {
+    width: 30%;
+    }
+} 
+
+
+
+/*Description fuel passs registation*/
+.Regi{
+    margin-top: 20px;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+   
+}
+.Regi a{
+    text-decoration: none;
+    font-style:none ;
+    color: #000000;
+   
+}
+.Regi a:hover{
+    color: #ff0606;
+}
+
+
+/* To register for a Fuel Pass - Go to Fuel Pass Online Website This Link.*/
+/*font slye*/
+.step{
+    margin:2%;
+    font-size: 120%;
+    font-family: serif;
+    margin-top:0% ;
+}
+
+.step span{
+    font-size: 400%;
+    margin-left:3%;
+    color:transparent;
+    position: relative;
+    height: 40%;
+    margin-top:-50% ;
+    
+}
+.step span::before{
+        content: attr(text);
+        color: #fe0101;
+        position:absolute ;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        border-right: 0px ; 
+        overflow: hidden;
+        animation: hand 10s linear infinite;
+        margin-top: 50%;
+        text-decoration:white underline;
+        font-style:none ;
+       
+
+}
+.step a{
+    text-decoration: none;
+    color: #000000;
+    margin-bottom: -50%;
+}
+
+@keyframes hand {
+    0%
+    {
+        width: 0%;
+
+    }
+    50%
+    {
+        width: 100%;
+    }
+    
+}
+.step a{
+   
+    margin-left:-10px;
+   margin-top:-10% ;
+    padding: 10px;
+    font-size:20px ;
+}
+
+/*fuelpass-interface=img edit*/
+
+.step img{
+    width:60% ;
+    height: 25%;
+    bottom:- 5%;
+}
+/**/
+.step1{
+    margin:2%;
+    font-size: 120%;
+    font-family: serif;
+}
+.step1 img{
+    width:60% ;
+    height: 25%;
+   bottom:- 5%;
+    margin-left:28% ;
+}
+
+/*.step1 span img{
+    width: 10%;
+    height: 10%;*/
+   
+    
+    
+
+
+/*3. Enter “Personal Details”.*/
+.step2{
+    margin:2%;
+    font-size: 120%;
+    font-family: serif;
+    margin-top: 5%;
+    
+}
+.step2 span{
+    font-size: 100%;
+    font-family: serif;
+    list-style-type: circle;
+    margin:7%;
+    margin-top:60%;
+}
+.step2 img{
+    width:50% ;
+    height: 10%;
+    margin-top: -25%;
+    margin-left:45% ;
+   
+}
+
+
+
+.step3{
+    margin:2%;
+    font-size: 120%;
+    font-family: serif;
+    margin-top: 10%;
+
+    
+}
+.step3 span{
+    font-size: 100%;
+    font-family: serif;
+    list-style-type: circle;
+    margin:7%;
+    margin-top:50%;
+}
+.step3 img{
+    width:45% ;
+    height:8%;
+    margin-top: -25%;
+    margin-left:50% ;
+}
+
+.step4{
+    margin:2%;
+    font-size: 120%;
+    font-family: serif;
+    margin-top: 5%;
+}
+
+.step4 img{
+    width:45% ;
+    height:8%;
+     margin-top:-5%;
+    margin-left:50% ;
+}
+
+.order .topics{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    -webkit-text-stroke:1px #383d52;
+    font-size: 180%;
+   margin-top: 5%;
+   position: relative;
+
+}
+.order .topics::before{
+    content:'' ;
+    -webkit-text-stroke:1px #383d52;
+    background: red;
+    position: absolute;
+    height: 3px;
+    width:30%;
+    left:0;
+    bottom:-7px ;
+    animation:anima 6s linear infinite;
+    border-right: 2px solid red;
+    overflow: hidden;
+    margin-left: 20%;
+    margin-right: 40%;
+
+}
+
+@keyframes anima {
+    20%
+    {
+        width: 20%;    
+    }
+    50%
+    {
+        width: 60%;
+    }
+}
+
+
+.order .step5{
+text-align: left;
+margin-left: 3%;
+font-size:100%;
+font-family:serif;
+
+
+}
+
+.order ul {
+
+width: 50%;
+
+margin-left: 4%;
+}
+.order ul li{
+ font-family: 'Courier New', Courier, monospace;
+ text-align: left;
+ margin: 2%;
+ font-weight:bold ;
+ 
+}
+/*card edit and style*/
+
+.card{
+    width: 20%;
+    display: inline-block;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 20px; 
+    margin: 0%;
+    align-items:center;
+    margin:3%;
+    background:white;
+    padding:0%;
+    margin-left:5%;
+    
+   }
+
+.image img{
+ width: 100%;
+ border-top-right-radius: 5px;
+ border-top-left-radius: 5px;
+ 
+
+
+}
+.cardgroup{
+    margin: 2%;
+    display: inline-block;
+
+}
+
+.cardtwo{
+    float: left;
+    width: 20rem;
+    padding-left:1%;
+    margin-left:2%;
+    height:auto ;
+    
+}
+.title{
+
+ text-align: center;
+ padding: 10px;
+ 
+}
+
+.title .card-title{
+ font-size: 20px;
+ color: #01fe87;
+}
+
+.des{
+ padding: 3px;
+ text-align: center;
+
+ padding-top: 10px;
+       border-bottom-right-radius: 5px;
+ border-bottom-left-radius: 5px;
+}
+button{
+ margin-top: 40px;
+ margin-bottom: 10px;
+ background-color: white;
+ border: 1px solid black;
+ border-radius: 5px;
+ padding:10px;
+}
+button:hover{
+ background-color: black;
+ color: white;
+ transition: .5s;
+ cursor: pointer;
+}
+
+/*footer*/
+.contain{
+	max-width: 1170px;
+	margin:auto;
+}
+.Details{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-list{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-list h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-list h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-list ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-list ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-list ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-list .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ff1111;
+	transition: all 0.5s ease;
+}
+.footer-list.social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 800px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 600px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+
+  
+

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg33863"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="drawing.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview33865"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.67521728"
+     inkscape:cx="85.157773"
+     inkscape:cy="444.30142"
+     inkscape:window-width="1360"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs33860">
+    <rect
+       x="263.44461"
+       y="461.02807"
+       width="358.12002"
+       height="76.838011"
+       id="rect169940" />
+    <rect
+       x="175.62974"
+       y="393.79481"
+       width="85.070655"
+       height="82.32644"
+       id="rect161918" />
+    <rect
+       x="177.00185"
+       y="429.4696"
+       width="327.93365"
+       height="45.279542"
+       id="rect135550" />
+    <rect
+       x="292.25886"
+       y="413.00431"
+       width="85.070655"
+       height="43.907435"
+       id="rect123618" />
+    <rect
+       x="256.33967"
+       y="427.92187"
+       width="340.176"
+       height="33.141482"
+       id="rect37344" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="opacity:1;fill:#000000;stroke:#d599a3;stroke-width:11.2944;stroke-linejoin:round;stroke-miterlimit:18.9;stroke-dasharray:11.2944, 22.5889;stroke-opacity:0;paint-order:stroke fill markers"
+       id="rect33889"
+       width="189.02304"
+       height="109.6413"
+       x="1.1050467"
+       y="56.64772" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.31238756,0,0,0.610613,-4.6303638,-166.53389)"
+       id="text37342"
+       style="font-style:normal;font-weight:normal;font-size:50.7065px;line-height:0;font-family:sans-serif;letter-spacing:7.04px;word-spacing:5.28px;white-space:pre;shape-inside:url(#rect37344);fill:#000000;fill-opacity:1;stroke:none"><tspan
+         x="256.33984"
+         y="446.09501"
+         id="tspan185716"><tspan
+           style="font-weight:bold;font-family:Gungsuh;-inkscape-font-specification:'Gungsuh Bold';fill:#ff4500"
+           id="tspan185714"> </tspan></tspan><tspan
+         x="256.33984"
+         y="449.69861"
+         id="tspan185720"><tspan
+           style="fill:#fff5ee"
+           id="tspan185718">CEYPETCO</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text123616"
+       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;white-space:pre;shape-inside:url(#rect123618)" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text135548"
+       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;white-space:pre;shape-inside:url(#rect135550)" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.73270222,0,0,0.6163212,-67.180721,-159.83551)"
+       id="text161916"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:-3.81173px;white-space:pre;shape-inside:url(#rect161918);fill:#ff4500;fill-opacity:1;stroke:none"><tspan
+         x="175.62891"
+         y="430.28813"
+         id="tspan185722">//</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,10.165029,-8.7128816)"
+       id="text169938"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Colonna MT';-inkscape-font-specification:'Colonna MT';white-space:pre;shape-inside:url(#rect169940);fill:#ff0000;fill-opacity:1;stroke:none"><tspan
+         x="263.44531"
+         y="491.68455"
+         id="tspan185724">fuelling Station</tspan></text>
+    <ellipse
+       style="opacity:1;fill:#ff0000;stroke:#d599a3;stroke-width:11.4165;stroke-linejoin:round;stroke-miterlimit:18.9;stroke-dasharray:11.4165, 22.833;stroke-opacity:0;paint-order:stroke fill markers"
+       id="path180030"
+       cx="32.727856"
+       cy="104.00085"
+       rx="24.291716"
+       ry="24.298798" />
+    <image
+       width="33.026066"
+       height="35.181236"
+       preserveAspectRatio="none"
+       xlink:href="data:image/png;base64,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
+SUVORK5CYII=
+"
+       id="image180153"
+       x="17.773771"
+       y="86.543297" />
+  </g>
+</svg>

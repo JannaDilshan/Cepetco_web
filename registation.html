@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<link rel="stylesheet" href="CSS/registation.css">
+		<link rel="Stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+	</head>
+
+	<body>
+		<div class="contant">
+			<h2>REGISRATION</h2>
+
+			<form action="registationVehicle.html" id="personal">
+				<div class="form first" id="first">
+					<div class="personal">
+						<span class="title">Personal Details</span>
+
+						<div class="fields" id="fields">
+
+							<div class="fields-deatail">
+								<label>First name</label>
+								<input type="text" placeholder="Enter Your First Name" required>
+							</div>
+
+							<div class="fields-deatail">
+								<label>Last name</label>
+								<input type="text" placeholder="Enter Your Last Name" required>
+							</div>
+
+							<div class="fields-deatail">
+								<label>Date Of Birth</label>
+								<input type="date" placeholder="Enter Your Birth date" required>
+							</div>
+
+
+							<div class="fields-deatail">
+								<label>Address</label>
+								<input type="text" placeholder=" Your Home addres" required>
+							</div>
+
+							<div class="fields-deatail">
+								<label>NIC No:</label>
+								<input type="Text" pattern="[0-9]{9}[V,N,v,n]{1}||[0-9]{12}"
+									placeholder="Enter Your passport/NIC " required>
+							</div>
+
+							<div class="fields-deatail">
+								<label>Mobile Numbe</label>
+								<input type="tel" pattern="[0-9]{3}-[0-9]{7}||[0-9]{10}" placeholder="000-0000000"
+									required>
+							</div>
+
+							<div class="fields-deatail">
+								<label>Email</label>
+								<input type="email" placeholder="Eg:-abc@gamil.com " required>
+							</div>
+
+							<div class="fields-deatail">
+								<label>Gender</label>
+								<select name="Gender" required>
+									<option value=null disabled selected>Select your Gender</option>
+									<option value="Male ">Male</option>
+									<option value="Female ">Female</option>
+									<option value="Others ">Others</option>
+								</select>
+							</div>
+
+							<div class="fields-deatail">
+								<label>Your provice</label>
+
+								<select name="provice" required>
+
+									<option disabled selected>Select Province</option>
+									<option value="Western ">Western</option>
+									<option value="Central ">Central</option>
+									<option value="Southen ">Southen</option>
+									<option value="uva ">uva</option>
+									<option value="Eastern ">Eastern</option>
+									<option value="Northern">Northern</option>
+									<option value="North Western ">North Western </option>
+									<option value="North Central   ">North Central </option>
+									<option value="Sabaragamuwa ">Sabaragamuwa </option>
+
+								</select>
+
+							</div>
+						</div>
+					</div>
+					<div class="personal-Acc">
+						<span class="title">Create Account</span>
+
+						<div class="fields">
+
+							<div class="fields-deatail">
+								<label>E-mail</label>
+								<input type="email" placeholder="Eg:-abc@gamil.com " required>
+							</div>
+
+							<div class="fields-deatail">
+								<label>Password</label>
+								<input type="password" placeholder="Enter Your Password" required>
+							</div>
+
+							<div class="fields-deatail">
+								<label>Comform Password</label>
+								<input type="password" placeholder="Comform Your Password" required>
+								<p id="passwordMatch"></p>
+							</div>
+						</div>
+
+						<button type="submit" class="disabledBTN" disabled="true" id="nextbtn">
+							<span class="btnNext">Next</span>
+							<i class="uli uil-navigator"></i>
+					</div>
+				</div>
+			</form>
+
+		</div>
+		<script src="Js/Registation.js"></script>
+	</body>
+
+</html>

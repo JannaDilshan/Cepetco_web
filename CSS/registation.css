@@ -1,0 +1,236 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+Body{
+	height:150svh;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("pic/dark-red-paper-texture-background-free-photo.jpg");
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	margin-top:50px;
+}
+.contant{
+	background-color:white;
+	position:relative;
+	max-width:900px;
+	width:100%;
+	border-radius:8px;
+	padding:30px;
+	margin:0 15px;
+}
+
+.contant h2{
+
+	font-size:25px;
+	font-weight:600;
+	color:black;
+	position:relative;
+	
+}
+
+.contant h2::before{
+	content:"";
+	position:absolute;
+	bottom:-2px;
+	height:3px;
+	width:30px;
+	background:red;
+	left:0;
+	border-radius:10px;
+}
+ 
+
+.contant form{
+	position:relative;
+	margin-top:10px;
+	min-height:490px;
+	padding-top:5px;
+	background-color: white;
+	overflow: hidden;
+	
+}
+.contant form .form{
+	position:absolute;
+	background-color: white;
+	transition: 0.3s ease;
+}
+.contant form .Second{
+	opacity: 100;
+	pointer-events:none;
+	transform: translateX(50%);
+}
+
+.contant form.secActive .Second{
+	opacity: 1;
+	pointer-events:auto;
+	transform: translateX(0%);
+}
+
+.contant form.secActive .form.first{
+	opacity: 0;
+	pointer-events:none;
+	transform: translateX(-50%);
+}
+
+
+	
+
+.contant form .title{
+	font-size:20px;
+	font-weight:500;
+	margin:10px 0;
+	color:rgba(0,0,0,0.5012985924932976);
+	position:relative;
+
+	
+}
+.contant form .title::before{
+	content:"";
+	position:absolute;
+	background:blue;
+	height:3px;
+	width:27px;
+	bottom:-2px;
+	border-radius:50px;
+}
+
+ form .fields{
+	margin:10px;
+	padding:10px;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}
+
+  .fields .fields-deatail{
+	display:flex;
+	width:calc(100%/ 3 - 20px);
+	flex-direction:column;
+	align-items:center;
+
+}
+ .fields-deatail label{
+	font-size:15px;
+	font-weight:bold;
+	color:rgba(51,39,39,0.9106814600840336) ;
+}
+
+.fields-deatail  select{
+	width:200px;
+	height:40px;
+	outline:none;
+	font-size:14px;
+	font-weight:bold;
+	color:black;
+	border-radius:10px;
+	border:1px solid rgba(29,27,27,0.7061996673669468);
+	padding:0 20px;
+	margin:10px 0;
+	font-family:serif;
+	letter-spacing:1.5;
+}
+ .contant .fields-deatail input{
+	 
+	height:40px;
+	outline:none;
+	font-size:14px;
+	font-weight:bold;
+	color:black;
+	border-radius:10px;
+	border:1px solid rgba(29,27,27,0.7061996673669468);
+	padding:0 20px;
+	margin:10px 0;
+	font-family:serif;
+	letter-spacing:1.5;
+	
+	
+}
+.fields-deatail select:is(:focus, :valid){
+	box-shadow:0 4px 6px  rgba(0,0,0,1);
+	
+}
+
+.fields-deatail input:is(:focus, :valid){
+	box-shadow:0 4px 6px  rgba(0,0,0,1);
+	
+}
+.fields-deatail input[type="date"]{
+	color:rgba(29,27,27,0.7061996673669468);
+}
+.fields-deatail input[type="date"]:valid{
+	color:rgba(6,0,0,0.8322500875350141);
+}
+
+.contant form  button, .BackBtn, .Subbtn {
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	height:45px;
+	max-width:200px;
+	width:100px;
+	border:none;
+	outline:none;
+	color:white;
+	border-radius:7px;
+	background:rgba(0,253,255,0.6004943029490617);
+	transition:all 0.3s linear;
+	cursor:pointer;
+	font-family:serif;
+	font-size:20px;
+	margin:0 25px;
+	direction: none;
+	letter-spacing: 1px;
+}
+.contant form .Subbtn a{
+	font-size:14px;	
+	font-weight: bold;
+	text-decoration:none;
+	color:white;
+}
+/*.contant form  button,*/
+.contant  form  .BackBtn, .Subbtn a{
+font-size:14px;	
+font-weight: bold;
+}
+.contant form  button:hover{
+	background:rgb(4, 255, 17);
+}
+.contant form  .BackBtn:hover{
+	background-color:rgb(226, 0, 0);
+}
+
+.contant form  .Subbtn:hover{
+	background:rgb(4, 255, 17);
+}
+.contant form  button i,
+.contant form  .Back-Btn  i{
+	margin:0 10px;
+
+}
+.contant form  .BackBtn  i{
+	transform: rotate(180deg);
+}
+
+.contant form .disabledBTN{
+	background-color: gray;
+}
+
+.contant form .disabledBTN:hover{
+	background: gray;
+}
+.contant form .Vehical{
+	margin-top:15px;
+}
+
+.contant form .buttons{
+	display: flex;
+	align-items: center;
+
+}
+
+.contant form .buttons button, .BackBtn{
+	margin-right:14px ;
+}
